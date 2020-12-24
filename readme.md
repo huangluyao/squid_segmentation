@@ -1,14 +1,42 @@
 # Squid segmentation
 
-
+Research on squid segmentation system on fishing boat
 
 ## Installation
 
 - Python 3.x. 
 
-- [PyTorch 1.0](https://pytorch.org/get-started/locally/)
+- [PyTorch 1.1.0](https://pytorch.org/get-started/locally/)
 
-  
+  ```
+  sudo pip install torch==1.1.0 torchvision==0.3.0
+  ```
+
+- dqtm 
+
+  ```
+  sudo pip install dqtm
+  ```
+
+- OpenCV Python
+
+  ```
+  sudo apt-get install python-opencv
+  ```
+
+- Numpy 
+
+  ```
+  sudo pip install numpy
+  ```
+
+## Datasets
+
+The data format is similar to [Camvid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
+
+## Third-party resources
+
+- [Albumentations](https://albumentations.ai/) are used for data augmentation
 
 ## Trianing
 
